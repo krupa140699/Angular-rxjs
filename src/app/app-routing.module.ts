@@ -97,9 +97,9 @@ const routes: Routes = [
       {
         path:'switchMap',component: SwitchMapComponent
       },
-      {
-        path:'exhaustMap',component: ExhaustMapComponent
-      }
+      // {
+      //   path:'exhaustMap',component: ExhaustMapComponent
+      // }
     ]
   },
   {

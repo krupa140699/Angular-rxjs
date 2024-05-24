@@ -32,7 +32,6 @@ import { MergeComponent } from './Includes/observable/merge/merge.component';
 import { MergeMapComponent } from './Includes/observable/merge-map/merge-map.component';
 import { ConcatMapComponent } from './Includes/observable/concat-map/concat-map.component';
 import { SwitchMapComponent } from './Includes/observable/switch-map/switch-map.component';
-import { ExhaustMapComponent } from './exhaust-map/exhaust-map.component';
 
 @NgModule({
   declarations: [
@@ -64,7 +63,6 @@ import { ExhaustMapComponent } from './exhaust-map/exhaust-map.component';
     MergeMapComponent,
     ConcatMapComponent,
     SwitchMapComponent,
-    ExhaustMapComponent
   ],
   imports: [
     BrowserModule,
